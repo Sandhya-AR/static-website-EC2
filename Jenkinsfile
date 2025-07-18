@@ -3,8 +3,8 @@ pipeline {
  
     environment {
         EC2_USER = 'ec2-user'                             // or 'ubuntu' for Ubuntu EC2
-        EC2_HOST = '13.232.238.240'
-        SSH_KEY = '/var/lib/jenkins/webserverkey.pem'        // Jenkins-readable path to your PEM file
+        EC2_HOST = '3.110.103.160'
+        SSH_KEY = '/var/lib/jenkins/Static-Website-EC2Key.pem'        // Jenkins-readable path to your PEM file
         REMOTE_DIR = '/var/www/html'
     }
  
